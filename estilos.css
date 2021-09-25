@@ -1,0 +1,263 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    position: relative;
+  }
+  a {
+    text-decoration: none;
+    color: gray;
+
+}
+.titular {
+    text-align: center;
+    margin-top: 300px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+.boton {
+    font-size: 14px;
+    background:gray;
+    padding: 20px 30px 20px 30px;
+    color: white;
+}
+
+
+header {
+
+    background: url(https://image.freepik.com/vector-gratis/fondo-gris-tecnologia_1035-9343.jpg);
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+
+
+  
+
+/*section Sobre mi*/
+
+.section-sobremi{
+    background:url(https://st2.depositphotos.com/3776273/i/600/depositphotos_92087102-stock-photo-great-black-gradient-background.jpg); 
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: auto;
+    
+}
+
+h3 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    color: gray;
+}
+
+.contenedor-sobremi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.foto-yo {
+    height: 30%;
+    width: 20%;
+    margin-bottom: 50px;
+    
+}
+
+.contenedor-parrafo-y-boton {
+    width: 50%;
+    color: white;
+
+}
+.contenedor-parrafo-y-boton p {
+    font-size: 20px;
+    
+}
+.parrafo-final {
+    margin-bottom: 70px;
+}
+
+/*Section Servicio*/
+
+.contenedor-servicios {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:url(https://st2.depositphotos.com/3776273/i/600/depositphotos_92087102-stock-photo-great-black-gradient-background.jpg); 
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.servicio {
+    width: 40%;
+    padding: 20px 38px 20px 38px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color:white;
+    margin-bottom: 90px;
+
+}
+.web {
+   /* background-color: rgb(117, 173, 172);*/
+   background: gray;
+}
+
+.movil {
+    background: black;
+}
+
+.bd {
+    background: black;
+}
+
+
+.mantenimiento {
+    /*background-color: rgb(182, 116, 182);*/
+    background: gray;
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin:0 ;
+    margin-bottom: 15px;
+}
+
+
+.servicio img {
+    float: right;
+
+}
+
+.servicio p{
+    font-size: 20px;
+}
+
+/*Section proyectos*/
+
+
+.contenedor-proyectos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background:url(https://st2.depositphotos.com/3776273/i/600/depositphotos_92087102-stock-photo-great-black-gradient-background.jpg); 
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.proyectos {
+
+    width: 40%;
+    padding: 20px 38px 20px 38px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color:white;
+    margin-bottom: 90px;
+}
+
+
+.proyectos h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.proyectos p{
+    font-size: 20px;
+}
+
+
+
+/*Section musica*/
+
+.contenedor-musica fila  {
+    padding: 60px 0;
+    width: 50%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+  
+}
+
+ 
+
+
+
+.card{
+    background-color: gray;
+}
+.card-title{
+    ext-align: center;
+    color:white
+
+}
+.card-text{
+    text-align:justify;
+    color:white
+  
+}
+
+  /* footer */
+
+footer{
+    background:url(https://st2.depositphotos.com/3776273/i/600/depositphotos_92087102-stock-photo-great-black-gradient-background.jpg); 
+    padding: 20px 0;
+    color:white;
+    text-align:center;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.social-div{
+    display:inline-block;
+    margin:2%;
+}
+
+#social-media-container{
+    text-align:center;
+    padding:0;
+}
+.social-img{
+    height:auto;
+    opacity:1;
+    margin:0 auto;  
+    width:60px;  
+    border-radius: 50%;
+}
+
+
+ 
